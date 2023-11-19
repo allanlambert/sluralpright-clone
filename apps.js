@@ -12,7 +12,6 @@ function validatePassword() {
 }
 
 password.onchange = validatePassword;
-password.onkeyup = validatePassword;
 confirmPassword.onkeyup = validatePassword;
 
 function toggleModal() {
